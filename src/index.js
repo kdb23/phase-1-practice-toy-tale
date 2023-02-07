@@ -13,3 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+const toyInfo = document.querySelector('#toy-collection');
+toyCard = document.createElement("div");
+toyCard.className = "card"
+toyInfo.append(toyCard)
